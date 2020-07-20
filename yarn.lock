@@ -1596,15 +1596,15 @@ normalize-path@^3.0.0, normalize-path@~3.0.0:
   resolved "https://registry.yarnpkg.com/normalize-path/-/normalize-path-3.0.0.tgz#0dcd69ff23a1c9b11fd0978316644a0388216a65"
   integrity sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==
 
-nornj-react@^5.2.1:
-  version "5.2.1"
-  resolved "https://registry.yarnpkg.com/nornj-react/-/nornj-react-5.2.1.tgz#a675628aca1e97f9c5be75769fd5967b3bec4598"
-  integrity sha512-FO8E+YQIaLAxf9dbo6aFo1wxyfLqDHFDSWwGtwuEHnnf7cHKSqeKMANnIR2IiRlpQayi1xeFP3XoO8dyLsn29A==
+nornj-react@^5.2.4:
+  version "5.2.4"
+  resolved "https://registry.yarnpkg.com/nornj-react/-/nornj-react-5.2.4.tgz#80e972683275d5af8e7fa04d35050e9c3b6f4f1f"
+  integrity sha512-0Du6tzB9lIB6Q0sXoo2IkV/16/YIXdVoMl7QZ1jEHG72m0aSDlgUNXq+Lx4uTL5OLgYjiZRuIs9R321EkEccZQ==
 
-nornj@^5.2.1:
-  version "5.2.1"
-  resolved "https://registry.yarnpkg.com/nornj/-/nornj-5.2.1.tgz#fdb1d08a55f1238affcc2e643f88b55bbf1fe4e7"
-  integrity sha512-7AY+A5hzUwYeJ/GScTx6C32niGEdOxw+1Afd67MIN1n7ar1RgTNXC7ANpe+UFwk1KrW8CJUyFvP64VQ1AtUFcA==
+nornj@^5.2.4:
+  version "5.2.4"
+  resolved "https://registry.yarnpkg.com/nornj/-/nornj-5.2.4.tgz#f387129a489847d31240e78ca6b46c03cc82298d"
+  integrity sha512-zrcZixGXymuBQlNe1uYKX1PvSSI67dJ265OKDt8Di4ljO76iC6VjQZHH3TDHSks6C2cDzILd9d9hCzshYZYFYg==
 
 npm-run-path@^4.0.0:
   version "4.0.1"
