@@ -5,6 +5,8 @@
     "dev": "vite",
     "build": "vite build"
   },
+  "author": "Joe_Sky <hitomi_doax@sina.com>",
+  "license": "MIT",
   "dependencies": {
     "@pika/react": "^16.13.1",
     "@pika/react-dom": "^16.13.1",
