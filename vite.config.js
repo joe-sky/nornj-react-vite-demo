@@ -1,5 +1,8 @@
 // @ts-check
 const reactPlugin = require('vite-plugin-react');
+import babel from 'rollup-plugin-babel';
+
+const isProd = process.env.VITE_ENV === 'production';
 
 /**
  * @type { import('vite').UserConfig }
@@ -7,9 +10,22 @@ const reactPlugin = require('vite-plugin-react');
 const config = {
   jsx: 'react',
   plugins: [reactPlugin],
-  alias: {
-    nornj: 'nornj/dist/nornj.esm'
+  rollupInputOptions: {
+    plugins: [
+      babel({
+        babelrc: false,
+        presets: ['@babel/preset-react'],
+        plugins: ['nornj-in-jsx'],
+        extensions: ['.js', '.jsx', '.ts', '.tsx']
+      })
+    ]
   }
 };
+
+if (!isProd) {
+  config.alias = {
+    nornj: 'nornj/dist/nornj.esm'
+  };
+}
 
 module.exports = config;
