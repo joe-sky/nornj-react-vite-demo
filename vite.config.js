@@ -1,6 +1,6 @@
 // @ts-check
 const reactPlugin = require('vite-plugin-react');
-import babel from 'rollup-plugin-babel';
+const babel = require('rollup-plugin-babel');
 
 const isProd = process.env.VITE_ENV === 'production';
 
